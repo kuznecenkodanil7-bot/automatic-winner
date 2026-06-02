@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "id": "dreadpasta",
+  "version": "${version}",
+  "name": "Dreadpasta",
+  "description": "Heavy creepypasta horror: stalker entity, jumpscares, lightning, chat glitches, destructive chunk events and dread dimension.",
+  "authors": ["Luis Marcelo / ChatGPT"],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/dreadpasta/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": ["com.medinapaul.dreadpasta.DreadpastaMod"],
+    "client": ["com.medinapaul.dreadpasta.client.DreadpastaClient"]
+  },
+  "depends": {
+    "fabricloader": ">=0.16.10",
+    "minecraft": "~1.21.4",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
